@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Kalkulyator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="calculator">
+    <h2>Kalkulyator</h2>
+
+    <div class="input-group">
+        <input type="text" id="num1" placeholder="Birinchi son (a)">
+        <input type="text" id="num2" placeholder="Ikkinchi son (b)">
+    </div>
+
+    <div class="buttons">
+        <button onclick="calculate('+')">+</button>
+        <button onclick="calculate('-')">-</button>
+        <button onclick="calculate('*')">*</button>
+        <button onclick="calculate('/')">/</button>
+    </div>
+
+    <div class="result-box">
+        Natija: <span id="result">0</span>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
